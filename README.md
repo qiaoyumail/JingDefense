@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Jing Nova Defense (Jing 新星防御)
 
-# Run and deploy your AI Studio app
+A retro-style missile defense game built with React, Vite, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## Features
+- **Dynamic Difficulty**: Level-based progression with difficulty scaling based on performance.
+- **Triple-Shot Defense**: Fire clusters of interceptors to protect your cities.
+- **Realistic Visuals**: Turrets, missiles with engine flames, and detailed city buildings.
+- **Bilingual Support**: Toggle between Chinese and English.
 
-View your app in AI Studio: https://ai.studio/apps/c3ed0a34-4357-407a-8b00-db234a39f6b9
+## Tech Stack
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js (v18+)
+- npm
 
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Deployment to Vercel
+1. Push your code to GitHub.
+2. Connect your GitHub repository to [Vercel](https://vercel.com).
+3. Vercel will automatically detect the Vite project and deploy it.
+
+## License
+MIT
