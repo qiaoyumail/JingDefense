@@ -1,4 +1,4 @@
-# Jing Nova Defense (Jing 新星防御)
+# Jing保卫家园 (Jing Defend Home)
 
 A retro-style missile defense game built with React, Vite, and Tailwind CSS.
 

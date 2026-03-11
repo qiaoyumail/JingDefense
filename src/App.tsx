@@ -12,7 +12,7 @@ import {
 
 const LANGUAGES: Record<'zh' | 'en', Language> = {
   zh: {
-    title: 'Jing 新星防御',
+    title: 'Jing保卫家园',
     start: '开始游戏',
     restart: '再玩一次',
     win: '最终胜利！',
@@ -25,7 +25,7 @@ const LANGUAGES: Record<'zh' | 'en', Language> = {
     performance: '本轮表现',
   },
   en: {
-    title: 'Jing Nova Defense',
+    title: 'Jing Defend Home',
     start: 'Start Game',
     restart: 'Play Again',
     win: 'Ultimate Victory!',
